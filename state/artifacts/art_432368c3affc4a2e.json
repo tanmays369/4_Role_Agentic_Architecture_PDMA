@@ -1,0 +1,8 @@
+{
+  "id": "art:432368c3affc4a2e",
+  "content_type": "text/plain",
+  "size_bytes": 6662,
+  "source": "fetch_url",
+  "descriptor": "fetch_url({'url': 'https://discuss.python.org/t/asyncio-best-practices/12576'})",
+  "created_at": "2026-05-18T07:35:22.776101Z"
+}
