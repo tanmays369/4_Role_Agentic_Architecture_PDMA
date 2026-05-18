@@ -1,0 +1,8 @@
+{
+  "id": "art:4b12344d2c8b0e5c",
+  "content_type": "text/plain",
+  "size_bytes": 8594,
+  "source": "fetch_url",
+  "descriptor": "fetch_url({'url': 'https://www.shanechang.com/p/python-asyncio-best-practices-pitfalls/'})",
+  "created_at": "2026-05-18T07:37:15.003706Z"
+}
