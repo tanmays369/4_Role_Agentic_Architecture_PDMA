@@ -1,0 +1,38 @@
+# State directory is per-machine and cleanable between assignment attempts.
+# We keep the directory itself visible via state/.gitkeep so the path
+# exists in a fresh clone; the agent's MemoryService / ArtifactStore
+# would auto-create it on first run anyway.
+state/*
+!state/.gitkeep
+
+# MCP server scratch dirs and quota counter.
+sandbox/
+usage.json
+
+# Secrets.
+.env
+
+# Python build / cache.
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Local DBs that the gateway creates.
+*.db
+gateway_v3.db-journal
+
+# The gateway has its own .venv; don't ship it.
+llm_gatewayV3/.venv/
+llm_gatewayV3/.uv_cache/
+llm_gatewayV3/__pycache__/
+
+# uv lockfile is kept; uv cache is not.
+.uv_cache/
+
+# OS junk.
+.DS_Store
+Thumbs.db
