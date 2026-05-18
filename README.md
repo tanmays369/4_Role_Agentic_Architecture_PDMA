@@ -1,5 +1,3 @@
-# EAG V3 — Session 6: Four-Role Agentic Architecture
-
 Four cognitive roles (Memory / Perception / Decision / Action) with typed
 Pydantic v2 contracts on every boundary. Every LLM call routes through
 LLM Gateway V3 on `:8101`; every tool call routes through `mcp_server.py`
@@ -42,7 +40,7 @@ uv run python -m agent6 --query D  --clean-state
 
 ---
 
-## Captured terminal output (clean state, 2026-05-18)
+## Captured terminal output
 
 ### Query A — Shannon
 
