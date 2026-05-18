@@ -1,0 +1,172 @@
+[
+  {
+    "id": "78ca2f01ce81",
+    "kind": "tool_outcome",
+    "keywords": [
+      "12576",
+      "6834",
+      "7130f4fec905041b",
+      "art",
+      "artifact",
+      "async-sig",
+      "asyncio",
+      "asyncio-best-practices",
+      "best",
+      "bytes",
+      "discuss",
+      "discussions",
+      "https",
+      "org",
+      "practices",
+      "preview",
+      "python",
+      "title",
+      "url",
+      "web_search"
+    ],
+    "descriptor": "web_search(max_results=3, query='Python asyncio best practices') -> art:7130f4fec905041b (293 chars descriptor)",
+    "value": {
+      "tool": "web_search",
+      "arguments": {
+        "max_results": 3,
+        "query": "Python asyncio best practices"
+      },
+      "result_preview": "[artifact art:7130f4fec905041b, 6834 bytes] preview: {   \"title\": \"Asyncio best practices - Async-SIG - Discussions on Python.org\",   \"url\": \"https://discuss.python.org/t/asyncio-best-practices/12576\",   \"snippet\": \"# Asyncio best practices\\n\\nSo I thought it\u2019d be great to catalog some of the"
+    },
+    "artifact_id": "art:7130f4fec905041b",
+    "source": "action",
+    "run_id": "3cccca7c",
+    "goal_id": "149030af",
+    "confidence": 1.0,
+    "created_at": "2026-05-18T07:35:02.574351Z"
+  },
+  {
+    "id": "c36f44d2dc94",
+    "kind": "tool_outcome",
+    "keywords": [
+      "12576",
+      "200",
+      "432368c3affc4a2e",
+      "6475",
+      "6662",
+      "art",
+      "artifact",
+      "asyn",
+      "asyncio-best-practices",
+      "bytes",
+      "content",
+      "content_type",
+      "discuss",
+      "fetch_url",
+      "https",
+      "length_bytes",
+      "main",
+      "markdown",
+      "org",
+      "preview",
+      "python",
+      "skip",
+      "status",
+      "text"
+    ],
+    "descriptor": "fetch_url(url='https://discuss.python.org/t/asyncio-best-practices/12576') -> art:432368c3affc4a2e (293 chars descriptor)",
+    "value": {
+      "tool": "fetch_url",
+      "arguments": {
+        "url": "https://discuss.python.org/t/asyncio-best-practices/12576"
+      },
+      "result_preview": "[artifact art:432368c3affc4a2e, 6662 bytes] preview: {   \"status\": 200,   \"content_type\": \"text/markdown\",   \"length_bytes\": 6475,   \"text\": \"[ Skip to main content ](https://discuss.python.org/t/asyncio-best-practices/12576#main-container)\\n[ ![Discussions on Python.org](https://us1.discours"
+    },
+    "artifact_id": "art:432368c3affc4a2e",
+    "source": "action",
+    "run_id": "3cccca7c",
+    "goal_id": "bed78aeb",
+    "confidence": 1.0,
+    "created_at": "2026-05-18T07:35:22.776666Z"
+  },
+  {
+    "id": "50a527a92cc2",
+    "kind": "tool_outcome",
+    "keywords": [
+      "200",
+      "77406",
+      "78736",
+      "adb835e6621ce900",
+      "art",
+      "artifact",
+      "async-io-python",
+      "bytes",
+      "com",
+      "content_type",
+      "fetch_url",
+      "https",
+      "length_bytes",
+      "markdown",
+      "preview",
+      "python",
+      "real",
+      "real-pyth",
+      "realpython",
+      "static",
+      "status",
+      "text"
+    ],
+    "descriptor": "fetch_url(url='https://realpython.com/async-io-python/') -> art:adb835e6621ce900 (294 chars descriptor)",
+    "value": {
+      "tool": "fetch_url",
+      "arguments": {
+        "url": "https://realpython.com/async-io-python/"
+      },
+      "result_preview": "[artifact art:adb835e6621ce900, 78736 bytes] preview: {   \"status\": 200,   \"content_type\": \"text/markdown\",   \"length_bytes\": 77406,   \"text\": \"[ ![Real Python](https://realpython.com/static/real-python-logo.893c30edea53.svg) ](https://realpython.com/)\\n  * [Start Here](https://realpython.com/"
+    },
+    "artifact_id": "art:adb835e6621ce900",
+    "source": "action",
+    "run_id": "3cccca7c",
+    "goal_id": "bed78aeb",
+    "confidence": 1.0,
+    "created_at": "2026-05-18T07:36:48.751306Z"
+  },
+  {
+    "id": "4258542264de",
+    "kind": "tool_outcome",
+    "keywords": [
+      "301",
+      "4b12344d2c8b0e5c",
+      "8336",
+      "8594",
+      "art",
+      "artifact",
+      "avatar",
+      "bytes",
+      "com",
+      "content_type",
+      "favicon",
+      "fetch_url",
+      "https",
+      "length_bytes",
+      "markdown",
+      "preview",
+      "python-asyncio-best-practices-pitfalls",
+      "sh",
+      "shanechang",
+      "status",
+      "svg",
+      "text",
+      "www"
+    ],
+    "descriptor": "fetch_url(url='https://www.shanechang.com/p/python-asyncio-best-practices-pitfalls/') -> art:4b12344d2c8b0e5c (293 chars descriptor)",
+    "value": {
+      "tool": "fetch_url",
+      "arguments": {
+        "url": "https://www.shanechang.com/p/python-asyncio-best-practices-pitfalls/"
+      },
+      "result_preview": "[artifact art:4b12344d2c8b0e5c, 8594 bytes] preview: {   \"status\": 301,   \"content_type\": \"text/markdown\",   \"length_bytes\": 8336,   \"text\": \"[![Avatar](https://shanechang.com/favicon.svg)](https://shanechang.com/)\\n# [Shane's Personal Blog](https://shanechang.com/)\\n## Gain wisdom at dawn; d"
+    },
+    "artifact_id": "art:4b12344d2c8b0e5c",
+    "source": "action",
+    "run_id": "3cccca7c",
+    "goal_id": "bed78aeb",
+    "confidence": 1.0,
+    "created_at": "2026-05-18T07:37:15.006210Z"
+  }
+]
